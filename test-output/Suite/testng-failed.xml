@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="a" value="456"/>
+    <parameter name="b" value="123"/>
+    <parameter name="userName" value="Kavya"/>
+    <parameter name="Password" value="Kavy544"/>
+    <classes>
+      <class name="myTest1.Day3">
+        <methods>
+          <include name="printMe"/>
+        </methods>
+      </class> <!-- myTest1.Day3 -->
+      <class name="myTest1.Day1">
+        <methods>
+          <include name="printMe"/>
+          <include name="AddMe"/>
+        </methods>
+      </class> <!-- myTest1.Day1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
